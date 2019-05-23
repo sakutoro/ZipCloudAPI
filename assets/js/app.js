@@ -33,12 +33,12 @@ $(function () {
                 
             }
 
-            // let kan = data.results.address1;
+            // let kan = data.results.[0].address1;
             // $("#prefecture").text(kan);
             // console.log(kan);
 
-            // console.log(item);
-            console.log(data.results);
+            console.log(item);
+            // console.log(data.results);
 
 
         }).fail( (data) => {
